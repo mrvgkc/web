@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+  
+    box-sizing: border-box;
+        
+}  
+body{
+    margin: 0;
+    padding: 0;
+    background-color:rgb(164, 208, 219);
+    font-family: inherit;
+
+}
+
+#sosyal{
+    background-color: black;
+    color: blanchedalmond;
+    height: 100px;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    font-size: 18px;
+    text-align: center;
+    padding: 15px;
+}
+font{
+    float:left;
+
+}
+#container{
+    width: 80%;
+    height: auto;
+    margin: auto;
+
+}
+header{
+    width: 100%;
+    height: 350px;
+    box-shadow: 0 2px 8px 2px rgb(106, 164, 182);
+    position:relative;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    position: relative;
+    color: white;
+}
+#headerResim{
+   
+    width: 100%;
+    height: 350px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+#centered{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    font-size: 1cm;
+    font-weight: 900;
+
+    
+}
+.bilgilendirme{
+    text-align: center;
+    color: midnightblue;
+    font-family:inherit;
+  
+}
+
+footer{
+    max-width: 100%;
+    height: 100px;
+    background-color: royalblue;
+}
+.yunusb{
+    max-width: 100%;
+    height:auto;
+    border: solid;
+    color: royalblue;
+}
+.köpekb{
+    max-width: 100%;
+    height:auto;
+    border: solid;
+    color: royalblue;
+}
+.jelly{
+    max-width: 100%;
+    height: auto;
+    border: solid;
+    color:royalblue;
+}
+.sosyalbutonlar{
+	margin-top: 50px;
+	display: inline-block;
+	position: relative;
+    left: 200px;
+  	
+	}
+
+  
+.sosyalbutonlar a  {
+    background:#a1a1a1;
+      text-decoration: none;
+      color: #FFF;
+      width: 60px;
+      height: 60px;
+      display: inline-block;
+      border-radius: 10px;
+      margin-right: 20px;
+      font-size: 30px;
+      overflow: hidden;
+      position: relative;
+      line-height: 60px;
+      text-align: center;
+}
+    
+.sosyalbutonlar a{  
+   transition: transform 0.4s linear 0s, 
+	 border-top-left-radius 0.1s linear 0s, 
+	 border-top-right-radius 0.1s linear 0.1s, 
+	 border-bottom-right-radius 0.1s linear 0.2s, 
+	 border-bottom-left-radius 0.1s linear 0.3s;
+ 	
+}
+
+  .sosyalbutonlar .twitter:hover   {
+      background-color: #00aced;
+      transform: rotate(360deg);
+      border-radius: 50%;	 
+}
+  
+
+
+ .sosyalbutonlar .instagram:hover   {
+      background-color: #bc2a8d;
+      transform: rotate(360deg);
+      border-radius: 50%;	 
+}
+
+ .sosyalbutonlar .linkedin:hover   {
+      background-color: #00aced;
+      transform: rotate(360deg);
+      border-radius: 50%;	 
+}
+
+.sosyalbutonlar{
+
+    margin-top: 50px;
+	display: inline-block;
+	position: relative;
+	left: 200px;
+  	
+}
+h2 {
+	font-family: inherit;
+	color: #666262;
+	font-size: 30px;
+	font-weight: bold;
+	padding-left: 150px;
+	margin-top: 50px;
+  }
+ 
+ 
+    #sidebar .kategori{
+        color:rgb(255, 0, 191);
+        padding-top: 10px;
+        padding-right: 16px;
+        padding-left: 40px;
+        padding-bottom: 20px;
+        line-height: 30px;
+        text-align:start;
+        background-color:royalblue;
+ }
+#sidebar h2{
+    font: 22px; 
+    font-family: inherit;
+    color:black;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    margin-left:-15px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    text-align: start;
+    
+}
